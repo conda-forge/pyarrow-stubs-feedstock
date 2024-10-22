@@ -29,6 +29,8 @@ test:
     - if not exist %SP_DIR%\\pyarrow-stubs\\__init__.pyi exit 1  # [win]
   requires:
     - pip
+    # workaround for pip check needing pyarrow as a dependency
+    - pyarrow >=17
 
 about:
   summary: Type annotations for pyarrow
