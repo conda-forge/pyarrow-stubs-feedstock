@@ -21,7 +21,6 @@ requirements:
     - pip
   run:
     - python >=3.8,<4.0
-    - pyarrow >=17
 
 test:
   commands:
