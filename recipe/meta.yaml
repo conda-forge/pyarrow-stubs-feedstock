@@ -1,5 +1,5 @@
 {% set name = "pyarrow-stubs" %}
-{% set version = "20.0.0.20250825" %}
+{% set version = "20.0.0.20250928" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyarrow_stubs-{{ version }}.tar.gz
-  sha256: e128e575c00a978c851d7fb2f45bf793c3e4dda5c084cfb9e20cf839829c97d9
+  sha256: e802b18e8e5fdf0a78afa05fae78f1456d861fcb1f95ec0234be5d6a5ecdcde2
 
 build:
   noarch: python
